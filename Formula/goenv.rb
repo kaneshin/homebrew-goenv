@@ -1,10 +1,10 @@
 class Goenv < Formula
   desc "Golang Version Management"
   homepage "https://github.com/kaneshin/goenv"
-  url "https://github.com/kaneshin/goenv/archive/v0.4.0.tar.gz"
-  sha256 "39a6709018520c140ac574092857e487cbc884bd1f95bc04b2eec22e99a9fd28"
+  url "https://github.com/kaneshin/goenv/archive/v0.4.1.tar.gz"
+  sha256 "975bc70099bc70e70946adb85e96b3779388cbba6183e35b1aa64df07e143bc9"
   head "https://github.com/kaneshin/goenv.git"
-  version "0.4.0"
+  version "0.4.1"
 
   def install
     prefix.install Dir["*"]
